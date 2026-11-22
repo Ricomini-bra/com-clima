@@ -8,7 +8,9 @@ export function Hero() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-8 md:grid-cols-2 md:grid-rows-2 md:gap-x-10 md:gap-y-8">
         <div className="md:col-start-1 md:row-start-1">
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-            Serviços de Ar Condicionado e Automação.
+            Soluções em Ar Condicionado
+            <br />
+            e Automação
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
             Instalação, manutenção, PMOC e automação para manter seu ambiente confortável e eficiente.

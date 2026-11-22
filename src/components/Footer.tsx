@@ -19,7 +19,7 @@ export function Footer() {
         <div className="flex flex-col justify-between rounded-2xl border border-white/10 bg-navy-light p-8 text-white">
           <div>
             <h3 className="text-lg font-semibold">{site.name}</h3>
-            <p className="mt-2 text-sm text-slate-300">Serviços de Ar Condicionado e Automação.</p>
+            <p className="mt-2 text-sm text-slate-300">Soluções em Ar Condicionado e Automação</p>
 
             <ul className="mt-8 space-y-3 text-sm">
               <li>
