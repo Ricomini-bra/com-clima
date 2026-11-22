@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0b1f3a;
+  --color-navy-light: #143056;
+  --color-cyan: #00b4d8;
+  --color-cyan-deep: #0077b6;
+  --color-surface: #f8fafc;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-navy);
+  color: #ffffff;
+}
+
+@keyframes orbit-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-orbit {
+  animation: orbit-spin 28s linear infinite;
+}
