@@ -14,7 +14,7 @@ const LABEL_RADIUS = 50;
 
 export function ServiceRing() {
   return (
-    <div className="relative mx-auto aspect-square w-full max-w-[23rem] sm:max-w-[27rem] lg:max-w-[30rem]">
+    <div className="relative mx-auto aspect-square w-full max-w-[20rem] sm:max-w-[24rem] lg:max-w-[26rem]">
       <div className="pointer-events-none absolute inset-[18%] rounded-full bg-cyan/20 blur-2xl" />
 
       <div className="absolute inset-[14%] animate-orbit rounded-full border border-dashed border-cyan/35" />
